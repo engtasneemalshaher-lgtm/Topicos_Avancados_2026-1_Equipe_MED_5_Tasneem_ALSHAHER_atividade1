@@ -1,4 +1,4 @@
-# LLM Benchmarking on Medical QA – Tasneem Alshaher
+# SLM Evaluation on Medical QA – Tasneem Alshaher
 
 **Universidade Federal de Sergipe (UFS)**  
 **Course:** Tópicos Avançados em Computação  
