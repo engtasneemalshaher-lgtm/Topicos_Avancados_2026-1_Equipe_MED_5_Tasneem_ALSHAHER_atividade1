@@ -89,13 +89,14 @@ Models were prompted to output a single letter. After extracting the predicted l
 
 The results reveal an interesting pattern: no single model dominates across both tasks.
 
-**Phi-3-mini** was the best MCQ performer by a notable margin (55.6%), which is impressive for a model under 4B parameters. Its structured, concise outputs seem well-suited to the multiple-choice format.
+**Phi-3-mini** Phi-3 was best at multiple choice — 55.6%, impressive for its small size.
 
-**Llama-3-8B** led on open-ended questions, with the highest mean coverage (0.574) and the most answers scoring above 0.8. Its larger capacity allows it to generate richer, more complete responses that capture more of the required medical concepts.
+**Llama-3-8B** Llama-3 was best at open-ended — it gave longer and more complete answers.
 
-**TinyLlama** was clearly the weakest overall. On MCQ it scored only 22.2% — barely above random for a 6-option task — and its open-ended responses never achieved the excellent (≥0.8) threshold, showing that 1.1B parameters are insufficient for reliable clinical reasoning.
+**TinyLlama** TinyLlama was the weakest in both parts. 1.1B parameters is not enough for medical questions.
 
-A key observation: MCQ and open-ended tasks measure different things. Phi-3 excels at selection but Llama-3 generates more informative free-form answers. For real medical applications, both abilities matter, and a model that balances them well would be ideal.
+Key finding: multiple choice and open-ended test different skills. A good model needs both.
+
 
 ---
 
