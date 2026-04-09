@@ -1,0 +1,2 @@
+model,mcq_accuracy,mcq_correct,mcq_total,open_mean,open_median,open_std,open_min,open_max,open_good_0.5,open_excellent_0.8
+phi3,0.5555555555555556,15,27,0.5164933280502852,0.5504664738833599,0.24410264879304389,0.0,1.0,9,3

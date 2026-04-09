@@ -1,0 +1,2 @@
+model,mcq_accuracy,mcq_correct,mcq_total,open_mean,open_median,open_std,open_min,open_max,open_good_0.5,open_excellent_0.8
+tinyllama,0.2222222222222222,6,27,0.4312811107114332,0.4437515415420679,0.22965875243304013,0.00890301036512614,0.7671716167333724,8,0
